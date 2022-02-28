@@ -1,0 +1,18 @@
+/* Secondary color - #00D2FF */
+/* Primary color - #FF2D00 */
+
+/* Add padding top 60px to main container */
+main > .container-fluid {
+    padding: 60px 15px 0;
+  }
+
+/* Position Registration Alert to the top */
+body {
+    position: relative;
+}
+#registration-alert {
+    position: fixed;
+    top: 20%;
+    right: 20%;
+    z-index: 1000;
+}
