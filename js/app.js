@@ -181,7 +181,7 @@ if (user === null) {
 
     let checks = document.getElementsByClassName('form-check-input');
     for (const input of checks) {
-        input.setAttribute('disabled');
+        input.setAttribute('disabled', 'true');
     }
     setTimeout(() => {
         registrationAlert.classList.remove('d-none');
